@@ -1,0 +1,898 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfectum</title>
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/reset.css">
+    <link rel="stylesheet" href="libs/splide-slider/css/splide.min.css">
+    <link rel="stylesheet" href="libs/splide-slider/css/splide-default.min.css">
+    <link rel="stylesheet" href="libs/splide-slider/css/splide-core.min.css">
+    <link rel="stylesheet" href="libs/aos/aos.css">
+    <link rel="stylesheet" href="libs/font-awesome.min.css">
+    <link rel="stylesheet" href="libs/fancybox-master/jquery.fancybox.min.css">
+    <!--    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+
+<header class="header">
+    <div class="my-container">
+        <div class="header__top">
+            <div class="header__top-details">
+                <a href="#!" class="sign-in">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                    <span class="text-bold">Персональный кабинет</span>
+                </a>
+
+                <div class="header__language">
+
+                    <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                        <img src="/img/svg/uz.svg" alt="">
+                        Uz
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li class="dropdown-item">
+                            <a href="#!" class="dropdown-link">
+                                <img src="/img/svg/ru.svg" alt="">
+                                Ru
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="header__bottom">
+
+            <div class="header__bottom-left">
+                <a href="index.html" class="logo">
+                    <img src="/img/svg/logo.svg" alt="">
+                </a>
+
+                <ul class="header__menu">
+                    <li class="dropdown header__menu-item active">
+                        <a href="./tariffs.html" class="header__menu-link">
+                            Тарифы
+                        </a>
+
+                        <div class="dropdown__content">
+                            <ul class="dropdown__content-inner">
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Economic
+                                    </a>
+                                </li>
+                                <li class="dropdown__item active">
+                                    <a href="#!" class="dropdown__link">
+                                        Business
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        VIP
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Полугодовые (5+1)
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Полугодовые (6+N)
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Полугодовые (6+K)
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Архивные тарифы
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+
+                    <li class="dropdown header__menu-item">
+                        <a href="./services.html" class="header__menu-link">
+                            Услуги
+                        </a>
+                        <div class="dropdown__content">
+                            <ul class="dropdown__content-inner">
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Сетевые услуги
+                                    </a>
+                                </li>
+                                <li class="dropdown dropdown__item active">
+                                    <a href="#!" class="dropdown__link" style="pointer-events: none">
+                                        Дополнительные услуги
+                                    </a>
+                                    <div class="dropdown__content">
+                                        <ul class="dropdown__content-inner">
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Mobile VPN</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">RingTone</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">SMS</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">SMS e-mail</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">SMS-NICK</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">SMS-пакеты</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Безлимитные ночи</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Быстрая отправка SMS</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">В засаде</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Вам звонили</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Голосовые пакеты</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Денежный перевод</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Звонок за счет друга</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Интернет пакеты</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Мобильный банк</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Мобильный интернет</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Номер на рассрочку</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Ночные звонки</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Позвони мне</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Свои на связи</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Скрытый звонок</a>
+                                            </li>
+
+                                            <li class="dropdown__item">
+                                                <a href="#!" class="dropdown__link">Тарифный пакет</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Мобильные сервисы и голосыве услуги
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Мобильный кабинет
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Программа лояльности
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Узнать баланс
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Абонентские услуги
+                                    </a>
+                                </li>
+
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Международная связь
+                                    </a>
+                                </li>
+
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Услуги от контент провайдера
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="header__menu-item">
+                        <a href="./promotions.html" class="header__menu-link">
+                            Акции
+                        </a>
+                    </li>
+
+                    <li class="header__menu-item">
+                        <a href="./news.html" class="header__menu-link">
+                            Новости
+                        </a>
+                    </li>
+
+                    <li class="header__menu-item">
+                        <a href="./available-numbers.html" class="header__menu-link">
+                            Красивые номера
+                        </a>
+                    </li>
+
+                    <li class="dropdown header__menu-item">
+                        <a href="#!" class="header__menu-link">
+                            Устройства
+                        </a>
+                    </li>
+
+                    <li class="header__menu-item">
+                        <a href="./help.html" class="header__menu-link">
+                            Помощь
+                        </a>
+                    </li>
+
+
+                </ul>
+
+                <div class="header__search">
+                    <div class="header__search-inner">
+                        <button class="header__search-btn">
+                            <img src="/img/svg/search.svg" class="search-img" alt="">
+                        </button>
+                        <div class="header__search-details">
+                            <input type="search" placeholder="Найти...">
+                            <button class="header__search-close">
+                                <img src="/img/svg/close.svg"/>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="hamburger-menu">
+                    <img src="/img/svg/hamburger.svg" alt="">
+                    <!--                    <i class="fa fa-bars" aria-hidden="true"></i>-->
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+</header>
+<div class="navigation-drawer">
+
+    <a href="#!" class="sign-in mb-20">
+        <i class="fa fa-user-o" aria-hidden="true"></i>
+        <span class="text-bold">Персональный кабинет</span>
+    </a>
+
+    <form class="input__group">
+        <input class="base-input" type="text">
+        <div class="input__group-append">
+            <button>
+                <img src="/img/svg/search.svg" alt="">
+            </button>
+        </div>
+    </form>
+
+
+    <ul class="accordion" id="accordion">
+
+        <li class="accordion__list">
+            <div class="link">
+                <a href="./services.html" class="link__title">Услуги</a>
+            </div>
+        </li>
+
+        <li class="accordion__list">
+            <div class="link">
+                <span class="link__title">Тарифы</span>
+                <i class="fa fa-chevron-down"></i>
+            </div>
+            <ul class="submenu">
+                <li><a href="#!">Economic</a></li>
+                <li><a href="#!">Business</a></li>
+                <li><a href="#!">VIP</a></li>
+                <li><a href="#!">Полугодовые (5+1)</a></li>
+                <li><a href="#!">Полугодовые (6+N)</a></li>
+                <li><a href="#!">Полугодовые (6+K)</a></li>
+                <li><a href="#!">Архивные тарифы</a></li>
+            </ul>
+        </li>
+
+        <li class="accordion__list">
+            <div class="link">
+                <span class="link__title">Услуги</span>
+                <i class="fa fa-chevron-down"></i>
+            </div>
+            <ul class="submenu">
+                <li><a href="#!"> Сетевые услуги</a></li>
+                <li class="submenu-collapse">
+                    <a href="#!" style="pointer-events: none;" class="submenu-collapse-title">Дополнительные услуги</a>
+                    <ul class="submenu submenu-content">
+                        <li><a href="#!">Mobile VPN</a></li>
+                        <li><a href="#!">RingTone</a></li>
+                        <li><a href="#!">SMS</a></li>
+                        <li><a href="#!">SMS e-mail</a></li>
+                        <li><a href="#!">SMS-NICK</a></li>
+                        <li><a href="#!">SMS-пакеты</a></li>
+                        <li><a href="#!">Безлимитные ночи</a></li>
+                        <li><a href="#!">Быстрая отправка SMS</a></li>
+                        <li><a href="#!">В засаде</a></li>
+                        <li><a href="#!">Вам звонили</a></li>
+                        <li><a href="#!">Голосовые пакеты</a></li>
+                        <li><a href="#!">Денежный перевод</a></li>
+                        <li><a href="#!">Звонок за счет друга</a></li>
+                        <li><a href="#!">Интернет пакеты</a></li>
+                        <li><a href="#!">Мобильный банк</a></li>
+                        <li><a href="#!">Мобильный интернет</a></li>
+                        <li><a href="#!">Номер на рассрочку</a></li>
+                        <li><a href="#!">Ночные звонки</a></li>
+                        <li><a href="#!">Позвони мне</a></li>
+                        <li><a href="#!">Свои на связи</a></li>
+                        <li><a href="#!">Скрытый звонок</a></li>
+                        <li><a href="#!">Тарифный пакет</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!">Мобильные сервисы и голосыве услуги</a></li>
+                <li><a href="#!"> Мобильный кабинет</a></li>
+                <li><a href="#!"> Программа лояльности</a></li>
+                <li><a href="#!"> Узнать баланс</a></li>
+                <li><a href="#!">Абонентские услуги</a></li>
+                <li><a href="#!">Международная связь</a></li>
+                <li><a href="#!"> Услуги от контент провайдера</a></li>
+            </ul>
+        </li>
+
+        <li class="accordion__list">
+            <div class="link">
+                <a href="#!" class="link__title">Акции</a>
+            </div>
+        </li>
+
+        <li class="accordion__list">
+            <div class="link">
+                <a href="./news.html" class="link__title">Новости</a>
+            </div>
+        </li>
+
+        <li class="accordion__list">
+            <div class="link">
+                <a href="#!" class="link__title">Красивые номера</a>
+            </div>
+        </li>
+
+        <li class="accordion__list">
+            <div class="link">
+                <a href="" class="link__title">Устройства</a>
+            </div>
+        </li>
+
+        <li class="accordion__list">
+            <div class="link">
+                <a href="" class="link__title">Помощь</a>
+            </div>
+        </li>
+    </ul>
+
+</div>
+
+<div class="backdrop">
+
+</div>
+
+
+<main class="main">
+
+    <div class="section__secondary">
+        <div class="my-container">
+
+            <div class="block__wrap">
+                <nav class="breadcrumbs">
+                    <ul class="breadcrumbs__ul">
+                        <li class="breadcrumbs__item">
+                            <a href="#!" class="breadcrumbs__link">Главная</a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="#!" class="breadcrumbs__link">Тарифы</a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="#!" class="breadcrumbs__link">Business</a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="#!" class="breadcrumbs__link">“888+”</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="main__photo mb-20">
+                    <img src="https://images.unsplash.com/photo-1572191267783-5618f992aff5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1564&q=80"
+                         alt="">
+                </div>
+
+                <h5 class="card__date">
+                    20-сентября, 2021 года
+                </h5>
+
+                <h2 class="block__title mb-10">Акция «КАСКО (автострахование):
+                    до -50%»!</h2>
+
+                <h3 class="block__subtitle ">
+                    Хотите получить скидку до -50% на страховой полис КАСКО от «Кафолат» (страхование автотранспортных
+                    средств)?
+                </h3>
+
+                <div class="content__text">
+                    <ul class="list-style-demical">
+                        <li>
+                            <span>Подключитесь к Perfectum на любой тариф категории «6+К»:</span>
+
+                            <div class="table__main promotions__table mt-20">
+
+                                <div class="table__main-inner">
+                                    <table>
+                                        <thead>
+                                        <tr>
+                                            <th>Вид страхования</th>
+                                            <th>Скидка на страховой полис</th>
+                                            <th>Тариф категории "6+К"</th>
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+                                        <tr>
+                                            <td rowspan="5" class="prime-bg">
+                                                Страховой полис
+                                                КАСКО от "Кафолат"
+                                                (страхование
+                                                автотранспортных
+                                                средств)
+                                            </td>
+
+                                            <td>10%</td>
+                                            <td>"888+" (6+К)</td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td>20%</td>
+                                            <td> "2000" (6+К)</td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td>25%</td>
+                                            <td>"Talk 2" (6+К)</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>30%</td>
+                                            <td>"10 000" (6+К)</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>50%</td>
+                                            <td>"30 000" (6+К)</td>
+
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <span>
+                                Предоставьте «Кафолат» Регистрационный бланк и Ваучер, выданные при подключении по акции «КАСКО (автострахование): до -50%» в офисах Perfectum.
+                            </span>
+                        </li>
+
+                        <li>
+                            <span>
+                                Получите разовую скидку на страховой полис КАСКО от «Кафолат».
+                            </span>
+                        </li>
+                    </ul>
+
+                    <p class="color-main">Важно! Передача Ваучера третьему лицу не допускается.</p>
+
+                    <b> Акция доступна для всех категорий лиц:</b>
+
+
+                    <ul>
+                        <li>
+                            физические лица, достигшие 18 лет: граждане Республики Узбекистан, постоянно
+                            проживающие на территории Республики Узбекистан,
+                        </li>
+                        <li>
+                            иностранные граждане и лица без гражданства, имеющие вид на жительство,
+                        </li>
+                        <li>
+                            индивидуальные предприниматели,
+                        </li>
+                        <li>
+                            юридические лица.
+                        </li>
+                    </ul>
+
+                    <p>
+                        Информацию по страховому полису КАСКО от «Кафолат» можно получить по тел.: <a
+                            href="tel: +99897 400 33 37" class="color-main text-bold">
+                        +99897 400 33 37</a>,
+                        <a href="tel: +99871 2028822" class="color-main text-bold">+99871 2028822</a>, <a
+                            href="http://www.kafolat.uz/" target="_blank">www.kafolat.uz.</a>
+                    </p>
+
+                    <b>Подробные условия тарифов категории «6+К»:</b>
+
+                    <div class="table__main promotions__table mt-20 mb-20">
+
+                        <div class="table__main-inner">
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th>Название тарифа</th>
+                                    <th>Абонентская плата за 6 месяцев</th>
+                                    <th>Ежемесячный льготный лимит*</th>
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td rowspan="" class="prime-bg">
+                                        «888+» (6+K)
+                                    </td>
+
+                                    <td><b>240 000 сўм</b></td>
+                                    <td>800 минут + 800 SMS + 800 Мб</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="" class="prime-bg">
+                                        «2 000» (6+K)
+                                    </td>
+
+                                    <td><b>390 000 сўм</b></td>
+                                    <td>2000 минут + 2000 SMS + 2000 Мб</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="" class="prime-bg">
+                                        «Talk 2» (6+K)
+                                    </td>
+
+                                    <td><b>505 242 сўм</b></td>
+                                    <td>6 000 минут</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="" class="prime-bg">
+                                        «10 000» (6+K)
+                                    </td>
+
+                                    <td><b>600 000 сўм</b></td>
+                                    <td>10 000 минут + 10 000 SMS + 10 000 Мб</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="" class="prime-bg">
+                                        «30 000» (6+K)
+                                    </td>
+
+                                    <td><b>900 000 сўм</b></td>
+                                    <td>30 000 минут + 30 000 SMS + 30 000 Мб</td>
+                                </tr>
+
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+
+                    <p>
+                        Исходящие звонки (минуты), исходящие SMS предоставляются по Узбекистану.
+                        <br><br>
+                        Подробнее о тарифах здесь: <span class="color-main">«888+» (6+K); «2 000» (6+K); «Talk 2» (6+K); «10 000» (6+K); «30 000»
+                        (6+K).</span>
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+</main>
+
+<footer class="footer">
+    <div class="footer__top">
+        <div class="my-container">
+            <div class="footer__wrap">
+                <div class="footer__left">
+                    <a href="#!" class="footer__logo">
+                        <img src="/img/svg/logo-light.svg" alt="">
+                    </a>
+
+                    <div class="footer__contacts">
+                        <a href="tel: +998 98 127 00 77" class="main-btn footer__contacts-phone">
+                            <img src="/img/svg/phone-light.svg" style="margin-right: 10px;" alt="">
+                            +998 98 127 00 77
+                        </a>
+
+                        <a href="tel: 077" class="footer__contacts-phone--secondary">
+                            <img src="/img/svg/phone-orange.svg" style="margin-right: 10px;" alt="">
+                            <span class="color-main">007</span> (для абонентов Perfectum)
+                        </a>
+
+                        <span class="color-white footer__contacts-email">E-mail: <a href="mailto: info@perfectum.uz"
+                                                                                    class="text-bold">info@perfectum.uz</a> </span>
+                    </div>
+
+                </div>
+
+                <div class="footer__center">
+                    <div class="footer__menu">
+                        <div class="footer__menu-column">
+                            <h3 class="footer__title">Абонентам</h3>
+                            <ul class="footer__menu-ul">
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Тарифы
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Корпоративным клиентам
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Услуги
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Красивые номера
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Устройства
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Персональный кабинет
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Пополнить баланс
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__menu-column">
+                            <h3 class="footer__title">Полезное</h3>
+                            <ul class="footer__menu-ul">
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Акции
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Новости
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Офисы
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Дилеры
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Зона покрытия
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Как подключиться
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__menu-column">
+                            <h3 class="footer__title">Информация</h3>
+                            <ul class="footer__menu-ul">
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        О нас
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Документация
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Открытые данные
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Закупки
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Карьера
+                                    </a>
+                                </li>
+
+                                <li class="footer__menu-item">
+                                    <a href="#!" class="footer__menu-link">
+                                        Контакты
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="footer__right">
+
+                    <h3 class="footer__title">
+                        Мобильное приложение
+                    </h3>
+
+                    <div class="footer__app">
+                        <a href="#!" class="footer__app-item">
+                            <img src="/img/svg/google-play.svg" alt="">
+                        </a>
+
+                        <a href="#!" class="footer__app-item">
+                            <img src="/img/svg/app-store.svg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="footer__socials">
+
+                        <h5 class="footer__socials-title">
+                            Социальные сети:
+                        </h5>
+
+                        <div class="footer__socials-wrap">
+                            <a href="#!" class="footer__socials-item">
+                                <img src="/img/svg/fb.svg" alt="">
+                            </a>
+                            <a href="#!" class="footer__socials-item">
+                                <img src="/img/svg/ig.svg" alt="">
+                            </a>
+                            <a href="#!" class="footer__socials-item">
+                                <img src="/img/svg/okru.svg" alt="">
+                            </a>
+                            <a href="#!" class="footer__socials-item">
+                                <img src="/img/svg/tg.svg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="my-container">
+           <h5 class="text-center">СП OOO "RWC" (Торговая марка Perfectum) | Все права защищены | Услуги лицензированы | Цены указаны с учетом всех налогов.</h5>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<script src="libs/jquery-3.2.1.min.js"></script>
+<script src="libs/fancybox-master/jquery.fancybox.min.js"></script>
+<script src="libs/jquery.matchHeight.js"></script>
+<script src="libs/bootstrap/js/popper.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="libs/aos/aos.js"></script>
+<script src="libs/inputMask.min.js"></script>
+<script src="libs/splide-slider/js/splide.min.js"></script>
+<script src="libs/parallax/jquery.parallax.min.js"></script>
+<script src="libs/headroom.js"></script>
+<script src="libs/lax.js"></script>
+<!--<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
+
+
+<script src="js/main.js"></script>
+
+</html>
